@@ -1,7 +1,3 @@
-/* ════════════════════════════════════
-   MAIN.JS — Navegação SPA, animações, contadores e carrinho do VitaSlim
-   ════════════════════════════════════ */
-
 // ── Navegação entre páginas (SPA simples) ──
 function goTo(page) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
